@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sonar Wallet Test Automation Test Suite" verbose="1">
+
+	<listeners>
+		<listener class-name="com.sonarwallet.qa.Analyzer.MyTransformer" />
+		<listener class-name="com.qa.ExtentReportListener.ExtentReportListener" />
+	</listeners>
+
+	<test name="Sonar Wallet Test Cases">
+		<classes>
+			<!--<class name="com.sonarwallet.qa.testcases.SwapTest"></class>-->
+			<class name="com.sonarwallet.qa.testcases.SendTest"></class>
+			<class name="com.sonarwallet.qa.testcases.DirectSendTest"></class>
+			<class name="com.sonarwallet.qa.testcases.CreateWalletTest"></class>
+			<class name="com.sonarwallet.qa.testcases.ImportWalletTest"></class>
+			<class name="com.sonarwallet.qa.testcases.DashboardTest"></class>
+			<class name="com.sonarwallet.qa.testcases.SettingTest"></class>
+			<class name="com.sonarwallet.qa.testcases.EditTokenTest"></class>
+			<class name="com.sonarwallet.qa.testcases.CreateNewWalletTest"></class>
+			<class name="com.sonarwallet.qa.testcases.ManageWalletTest"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,6 @@
+/.metadata/
+.metadata/
+*/config.properties
+screenshots/*
+src/main/java/com/sonarwallet/qa/config/config.properties
+*src/main/java/com/sonarwallet/qa/config/config.properties
